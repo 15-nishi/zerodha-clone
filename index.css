@@ -1,0 +1,103 @@
+.navBar{
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+}
+
+.navDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    text-decoration :none;
+}
+
+.navBar .logo-img {
+    max-height: 17px;
+    vertical-align: middle;
+    top: 18px;
+}
+
+.navbar-link {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+.lilink {
+    list-style: none; 
+    display: inline-block;
+}
+
+.lilink a {
+    color: #666; 
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 25px;
+    
+    transition: color .3s;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.lilink a:hover {
+    color:#387ed1;
+}
+.pagediv {
+    display: flex;
+    justify-content: center;
+}
+
+.loadingpage {
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0px;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+    background-color: #387ed1;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
